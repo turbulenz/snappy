@@ -124,6 +124,10 @@ extern "C" {
 #include "quicklz.h"
 #endif
 
+#ifdef WIN32
+#include "windows.h"
+#endif
+
 namespace {
 
 namespace File {
